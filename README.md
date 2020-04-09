@@ -2,16 +2,14 @@
 
 Just my dotfiles 🚀 feel free to use
 
-_MBU : Might be useful_
-
-### MBU Fonts
+### Fonts
 ```
 Iterm -> https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Meslo/M
 
 Code -> https://www.jetbrains.com/lp/mono/
 ```
 
-### MBU Tools
+### Tools
 ```
 Alfred -> spotlight but better
 Appcleaner -> remove stuff properly
@@ -34,7 +32,7 @@ Typora -> markdown editor
 Unsplash wallpapers -> randow wallpaper
 ```
 
-### MBU Dev
+### Dev
 ```
 Dash (offline doc)
 Docker
@@ -45,10 +43,17 @@ Table Plus
 VsCode
 ```
 
-### MBU VSCode
+### VSCode
 ```
 # Dump extensions
 code --list-extensions > vscode-extensions.txt
 # Restore extensions
 cat vscode-extensions.txt | xargs -L1 code --install-extension
+```
+
+### Command line
+```
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
+brew install tldr -> better man page
 ```
